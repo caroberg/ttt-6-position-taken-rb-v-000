@@ -1,6 +1,6 @@
-board = ["X", "O", "X", " ", " ", " ", " ", " ", " "]
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def position_taken?(board, index)
   if board[index] == !(" " || "")
-  else board[index] == !("X" || "O")
+  else board[index] == ("X" || "O")
   end
 end
