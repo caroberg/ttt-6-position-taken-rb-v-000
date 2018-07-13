@@ -1,6 +1,8 @@
-board = Array.new(9, "X")
+board = 
 def position_taken?(board, index)
-  if board[index] == !(" " || "")
+  if board[index] == (" " || "")
+    puts false
   else board[index] == ("X" || "O")
+    puts true
   end
 end
